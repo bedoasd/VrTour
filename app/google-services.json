@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "244784052745",
+    "firebase_url": "https://vr-tour-8153b.firebaseio.com",
+    "project_id": "vr-tour-8153b",
+    "storage_bucket": "vr-tour-8153b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244784052745:android:ef6bc1b33a5dc199ed56d8",
+        "android_client_info": {
+          "package_name": "com.example.vrtour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244784052745-afm4nku091kermiif47icog0q884gfel.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vrtour",
+            "certificate_hash": "259cee372f2e649beb1fb32cad530dafd762844e"
+          }
+        },
+        {
+          "client_id": "244784052745-4pqv246363fn5n37qrad8ckoibibedbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTC0YSH-HqBB_zOfIk2bpeGY7pIxeouFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244784052745-4pqv246363fn5n37qrad8ckoibibedbt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
