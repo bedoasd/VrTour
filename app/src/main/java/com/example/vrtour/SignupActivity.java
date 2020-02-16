@@ -71,8 +71,8 @@ public class SignupActivity extends AppCompatActivity {
                     return;
                 }
 
-                 //  mdialog.setMessage("Loading..");
-                //mdialog.show();
+                   mdialog.setMessage("Loading..");
+                  mdialog.show();
 
 
                 mAuth.createUserWithEmailAndPassword(emaill,passs).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
@@ -80,7 +80,7 @@ public class SignupActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isComplete()){
                             Toast.makeText(SignupActivity.this, "Successful", Toast.LENGTH_SHORT).show();
-                            //     mdialog.dismiss();
+                               mdialog.dismiss();
                             startActivity(new Intent(getApplicationContext(),HomeMapsActivity.class));
 
                         }
