@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerlayout"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    tools:context=".MapActivity">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@android:dimen/app_icon_size"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/TF_location"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:ems="10"
+                android:hint="@string/search_the_place"
+                android:inputType="textPersonName" />
+
+            <ImageView
+                android:id="@+id/B_search"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="-1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toEndOf="@+id/TF_location"
+                android:src="@drawable/ic_search_black_24dp"
+                android:onClick="onClick"
+                android:text="" />
+        </LinearLayout>
+
+
+        <fragment
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MapActivity"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            />
+
+
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:layout_gravity="start"
+        android:id="@+id/nav_view"
+        app:itemTextAppearance="?android:textAppearanceMedium"
+        app:menu="@menu/nav_menu"
+        app:itemTextColor="#FFF"
+        android:background="#E88A01"
+        app:headerLayout="@layout/nav_header"
+        ></com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

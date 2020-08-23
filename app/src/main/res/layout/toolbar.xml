@@ -7,10 +7,12 @@
     android:layout_width="match_parent"
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
     app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
-    android:background="#fff"
+    android:background="#9E3E3E"
     android:layout_height="wrap_content">
 
 
 >
+
+
 
 </androidx.appcompat.widget.Toolbar>

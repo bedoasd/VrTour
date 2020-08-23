@@ -1,8 +1,5 @@
 package com.example.vrtour;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +8,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -44,10 +44,10 @@ public class LoginActivity extends AppCompatActivity {
 
     }
     private void login(){
-        email=findViewById(R.id.Emaill_login_edit_text);
-        pass=findViewById(R.id.password_login_edit_text);
-        login=findViewById(R.id.loginbtnnn);
-        textView_donotH=findViewById(R.id.tv_donot_have_account);
+        email=findViewById(R.id.Emaill_signup_edit_text);
+   //     pass=findViewById(R.id.Password);
+        login=findViewById(R.id.signupbtn);
+        textView_donotH=findViewById(R.id.tv_have_account);
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,7 +77,7 @@ public class LoginActivity extends AppCompatActivity {
                             if (task.isComplete()){
                                 Toast.makeText(LoginActivity.this, "Success", Toast.LENGTH_SHORT).show();
                                 mdialog.dismiss();
-                                startActivity(new Intent(getApplicationContext(),HomeMapsActivity.class));
+                                startActivity(new Intent(getApplicationContext(),MapActivity.class));
 
                             }
 

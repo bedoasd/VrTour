@@ -1,4 +1,50 @@
 <resources>
-    <string name="app_name">VrTour</string>
-    <string name="title_activity_home_maps">Map</string>
+    <string name="app_name" translatable="false">VrTour</string>
+    <string name="username">Username</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="have_email">Already have an account ? log in</string>
+    <string name="log_in">Login</string>
+    <string name="egp">EGP</string>
+    <string name="currency">Currency</string>
+    <string name="convert">Convert</string>
+    <string name="value">Value</string>
+    <string name="weather">Weather</string>
+    <string name="currency_converter">Currency Converter</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="histogram">Histogram</string>
+    <string name="search_the_place">Search the place</string>
+    <string name="list_of_places">List Of VR Places</string>
+    <string name="enter_the_country">Enter the name of country</string>
+    <string name="not_have_email">Do not have an account ? sign up</string>
+
+
+    <string name="title_activity_home_maps" translatable="false">Map</string>
+    <string name="google_maps_keyyy" translatable="false">AIzaSyATWpl2vkLFXtmsuTjSQq8Wnb_FN-1Lp1I</string>
+    <string name="title_activity_home__maps" translatable="false">Map</string>
+    <string name="navigation_drawer_open" translatable="false">open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">close navigation drawer</string>
+    <string name="speech_prompt" translatable="false">Say something&#8230;</string>
+    <string name="speech_not_supported" translatable="false">Sorry! Your device doesn\'t support speech input</string>
+
+
+    <string name="back4app_app_id" translatable="false">PASTE_YOUR_APPLICATION_ID_HERE</string>
+    <string name="back4app_client_key" translatable="false">PASTE_YOUR_CLIENT_KEY_HERE</string>
+
+
+    <string name="facebook_app_id" translatable="false">682796825844480</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb682796825844480</string>
+
+
+    <string name="Pyramids" translatable="false">The Egyptian pyramids are ancient pyramid-shaped masonry structures located in Egypt. As of November 2008, sources cite either 118 or 138 as the number of identified Egyptian pyramids.Most were built as tombs for the country\'s pharaohs and their consorts during the Old and Middle Kingdom periods.The earliest known Egyptian pyramids are found at Saqqara, northwest of Memphis. The earliest among these is the Pyramid of Djoser, which was built c. 2630–2610 BC during the Third Dynasty. This pyramid and its surrounding complex were designed by the architect Imhotep, and are generally considered to be the world\'s oldest monumental structures constructed of dressed masonry.The most famous Egyptian pyramids are those found at Giza, on the outskirts of Cairo. Several of the Giza pyramids are counted among the largest structures ever built.The Pyramid of Khufu at Giza is the largest Egyptian pyramid. It is the only one of the Seven Wonders of the Ancient World still in existence.</string>
+    <string name="Qalaa" translatable="false">The Citadel of Cairo or Citadel of Saladin is a medieval Islamic-era fortification in Cairo, Egypt, built by Salah ad-Din (Saladin) and further developed by subsequent Egyptian rulers. It was the seat of government in Egypt and the residence of its rulers for nearly 700 years from the 13th to the 19th centuries. Its location on a promontory of the Mokattam hills near the center of Cairo commands a strategic position overlooking the city and dominating its skyline. At the time of its construction, it was among the most impressive and ambitious military fortification projects of its time. It is now a preserved historic site, including mosques and museums.</string>
+    <string name="Dandra" translatable="false">Dendera Temple complex (Ancient Egyptian: Iunet or Tantere; the 19th-century English spelling in most sources, including Belzoni, was Tentyra; also spelled Denderah) is located about 2.5 kilometres (1.6 mi) south-east of Dendera, Egypt. It is one of the best-preserved temple complexes in Egypt. The area was used as the sixth Nome of Upper Egypt, south of Abydos.</string>
+    <string name="ramses" translatable="false">The Statue of Ramesses II is a 3,200-year-old figure of Ramesses II, depicting him standing. It was discovered in 1820 by Giovanni Battista Caviglia at the Great Temple of Ptah near Memphis, Egypt. It is made from red granite. The statue was found broken in six pieces and earlier attempts at restoration failed. In 1955, Egyptian Prime Minister Gamal Abdel Nasser moved it to the large Bab Al-Hadid square in Cairo that was then renamed Ramses Square.There the statue was restored to its full height of 11 meters and erected on a three-metre pedestal at the edge of a fountain. It was stabilized by iron bars inside the body.</string>
+    <string name="Horus" translatable="false">Edfu was one of several temples built during the Ptolemaic Kingdom, including the Dendera Temple complex, Esna, the Temple of Kom Ombo, and Philae. Its size reflects the relative prosperity of the time. The present temple, which was begun on 23 August 237 BC, initially consisted of a pillared hall, two transverse halls, and a barque sanctuary surrounded by chapels.The building was started during the reign of Ptolemy III Euergetes and completed in 57 BC under Ptolemy XII Auletes. It was built on the site of an earlier, smaller temple also dedicated to Horus, although the previous structure was oriented east-west rather than north-south as in the present site. A ruined pylon lies just to the east of the current temple; inscriptional evidence has been found indicating a building program under the New Kingdom rulers Ramesses I, Seti I and Ramesses II.</string>
+    <string name="Khunm" translatable="false">The Temple of Esna conveys a sense of the importance which the Ancient Egyptians placed upon their places of worship. All Egyptians who entered the confines of an Egyptian temple were required to comply with the strict rules regarding ritual purity. According to inscriptions carved on the walls of the Temple of Esna, those who entered this temple were expected to fastidiously cut their fingernails and toenails, remove other body hair, wash their hands with natron (a natural occurring salt), be dressed in linen (they were forbidden from wearing wool), and not to have had sexual intercourse for several days.</string>
+    <string name="Karnak" translatable="false">Luxor Temple is a large Ancient Egyptian temple complex located on the east bank of the Nile River in the city today known as Luxor (ancient Thebes) and was constructed approximately 1400 BCE. In the Egyptian language it is known as ipet resyt, \'the southern sanctuary\' . In Luxor there are several great temples on the east and west banks. Four of the major mortuary temples visited by early travelers include the Temple of Seti I at Gurnah, the Temple of Hatshepsut at Deir el Bahri, the Temple of Ramesses II (a.k.a. Ramesseum), and the Temple of Ramesses III at Medinet Habu the two primary cults temples on the east bank are known as the Karnak and Luxor. Unlike the other temples in Thebes, Luxor temple is not dedicated to a cult god or a deified version of the pharaoh in death. Instead, Luxor temple is dedicated to the rejuvenation of kingshi it may have been where many of the pharaohs of Egypt were crowned in reality or conceptually (as in the case of Alexander the Great, who claimed he was crowned at Luxor but may never have traveled south of Memphis, near modern Cairo.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
 </resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/weather"
+        android:title="@string/weather"
+        android:icon="@drawable/rain"
+        />
+
+    <item
+        android:id="@+id/currency"
+        android:icon="@drawable/money"
+        android:title="@string/currency_converter" />
+
+    <item
+        android:id="@+id/histogram"
+        android:icon="@drawable/ic_histogram"
+        android:title="@string/histogram" />
+    <item
+        android:id="@+id/ListOfPlaces"
+        android:icon="@drawable/ic_listofplaces"
+        android:title="@string/list_of_places" />
+
+    <item android:title="@string/sign_out"
+        android:id="@+id/signoutsidemenu"
+        android:icon="@drawable/signout"
+    />
+
+</menu>

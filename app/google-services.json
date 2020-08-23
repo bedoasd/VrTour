@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "244784052745",
-    "firebase_url": "https://vr-tour-8153b.firebaseio.com",
-    "project_id": "vr-tour-8153b",
-    "storage_bucket": "vr-tour-8153b.appspot.com"
+    "project_number": "580863765306",
+    "firebase_url": "https://mytour-6820e.firebaseio.com",
+    "project_id": "mytour-6820e",
+    "storage_bucket": "mytour-6820e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:244784052745:android:ef6bc1b33a5dc199ed56d8",
+        "mobilesdk_app_id": "1:580863765306:android:d267689c53b7a5faff3e03",
         "android_client_info": {
           "package_name": "com.example.vrtour"
         }
       },
       "oauth_client": [
         {
-          "client_id": "244784052745-afm4nku091kermiif47icog0q884gfel.apps.googleusercontent.com",
+          "client_id": "580863765306-ugrik8clpaluof4r77h65dbihhlk989r.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.vrtour",
@@ -23,20 +23,20 @@
           }
         },
         {
-          "client_id": "244784052745-4pqv246363fn5n37qrad8ckoibibedbt.apps.googleusercontent.com",
+          "client_id": "580863765306-2p1qeqfsni93fjkue6oi1vnbeaumha53.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCTC0YSH-HqBB_zOfIk2bpeGY7pIxeouFk"
+          "current_key": "AIzaSyATWpl2vkLFXtmsuTjSQq8Wnb_FN-1Lp1I"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "244784052745-4pqv246363fn5n37qrad8ckoibibedbt.apps.googleusercontent.com",
+              "client_id": "580863765306-2p1qeqfsni93fjkue6oi1vnbeaumha53.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -1,12 +1,9 @@
 package com.example.vrtour;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
-
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,16 +18,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        signup();
+       // signup();
 
-        login();
+        //login();
 
 
     }
-    private void  signup(){
+    /*private void  signup(){
 
-        signup=findViewById(R.id.btn_sign_up);
-        signup.setOnClickListener(new View.OnClickListener() {
+       // signup=findViewById(R.id.btn_log_in);
+        signup.setOnClickListener(
+                new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                     startActivity(new Intent(getApplicationContext(),SignupActivity.class));
@@ -38,18 +36,17 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-    }
+    }*/
 
 
 
-    private void  login(){
-        login=findViewById(R.id.btn_log_in);
-
+    /*private void  login(){
+     //   login=findViewById(R.id.btn_sign_up);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(),LoginActivity.class));
             }
         });
-    }
+    }*/
 }
