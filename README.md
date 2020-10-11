@@ -7,3 +7,4 @@ search places with voice
 explaning about place and you can listening to it with text to voice api 
 it supports 4 languages
 and small instagram for users to interact with each other
+https://github.com/bedoasd/VrTour/blob/master/WhatsApp%20Image%202020-05-03%20at%201.57.35%20AM.jpeg
